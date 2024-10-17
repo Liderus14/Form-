@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Обычная форма */
+
+.number-one{
+  max-width: 400px;
+  height: 400px;
+  border: solid 2px red;
+  margin-left: 150px;
+  margin-top: 200px;
+  border-radius: 10px;
+}
+
+.number-one h1{
+  text-align: center;
+}
+
+.form{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.name{
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.tel{
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+.btn{
+  width: 320px;
+  height: 60px;
+  background-color: red;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
